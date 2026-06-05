@@ -1,0 +1,13 @@
+# combined_grocery.yaml
+path: ./dataset  # root dataset directory
+train: train/images  # train images (relative to path)
+val: valid/images    # val images (relative to path)
+
+# List out all the unique ingredient classes your dataset can detect
+names:
+  0: milk
+  1: cheddar_cheese
+  2: tomato
+  3: egg
+  4: yogurt
+  5: sriracha
